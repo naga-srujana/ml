@@ -1,0 +1,13 @@
+import statistics as st
+import math as mp
+import numpy as np
+from scipy import stats
+d=[1,2,3,4]
+print("mean:",st.mean(d))
+print("mode:",st.mode(d))
+print("power:",mp.pow(3,2))
+print("pi:",mp.pi)
+print("root:",mp.sqrt(7))
+print("SD:",np.std(d))
+print("SD:",stats.tstd(d))
+print("variance:",stats.tvar(d))
